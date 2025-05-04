@@ -32,8 +32,8 @@ const Home = () => {
           <h2 className="job-title">Data Scientist </h2>
           <a 
             className="resume-button"
-            href="/Resume DS.pdf" 
-            download="Resume DS.pdf"
+            href="/Resume DSL.pdf" 
+            download="Resume DSL.pdf"
           >
             DOWNLOAD RESUME
           </a>
