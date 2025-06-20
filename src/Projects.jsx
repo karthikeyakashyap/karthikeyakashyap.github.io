@@ -1,30 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Projects = () => {
-  const projects = [
-    {
-      title: 'Melanoma Detection Using SVM and CNN',
-      description:
-        'Developed an image analysis tool for early melanoma detection. Applied grayscale conversion, noise removal, and GLCM feature extraction. Trained SVM and CNN models with hyperparameter tuning for optimized classification performance.',
-      github: '#', // Replace with actual repo if available
-      icon: 'fas fa-notes-medical'
-    },
-    {
-      title: 'Online Medical Consultation Application',
-      description:
-        'Built a telemedicine app integrating Python, SQL, and Agora for real-time consultations. Included vital sign monitoring, cloud-based patient data storage, and visualizations using Matplotlib and Seaborn.',
-      github: '#', // Replace with actual repo if available
-      icon: 'fas fa-stethoscope'
-    },
-    {
-      title: 'Predicting SpaceX Falcon 9 Rocket Landing Success',
-      description:
-        'Created a predictive model using Python, Pandas, and Scikit-learn to forecast Falcon 9 landing success. Conducted EDA and built logistic regression models evaluated with ROC-AUC and accuracy metrics.',
-      github: '#', // Replace with actual repo if available
-      icon: 'fas fa-rocket'
-    }
-  ];
+const projects = [
+  {
+    title: 'Collaborative Retail Inventory Forecasting Platform',
+    description:
+      'Built a multi-tenant web platform enabling store managers to co-create demand forecasts in real time using React, Flask, WebSockets, and Prophet. Integrated Power BI Embedded dashboards and secure PostgreSQL + dbt backend. Improved MAPE by 20% and cut stockouts by 15%.',
+    github: '#', // Add actual GitHub repo if public
+    icon: 'fas fa-store'
+  },
+  {
+    title: 'AI-Powered Customer Sentiment & Decision Assistant',
+    description:
+      'Developed a chat-based dashboard using FastAPI, Hugging Face, spaCy, and OpenAI API to analyze customer sentiment and generate actionable insights. Visualized trends with D3.js. Cut feedback analysis time by 60%.',
+    github: '#', // Add actual GitHub repo if public
+    icon: 'fas fa-comments'
+  },
+  {
+    title: 'Live Marketing Campaign Performance Dashboard & Anomaly Alerts',
+    description:
+      'Engineered a live marketing analytics pipeline with Python, Docker, PostgreSQL, dbt, and Looker. Created auto-refresh dashboards with anomaly detection and alerts using z-scores. Reduced campaign monitoring lag from 24h to under 1h.',
+    github: '#', // Add actual GitHub repo if public
+    icon: 'fas fa-bullhorn'
+  }
+];
 
   const certificates = [
     {
