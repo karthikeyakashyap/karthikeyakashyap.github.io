@@ -11,8 +11,12 @@ const About = () => {
         <div className="about-text-full">
           <p className="about-description">
             Hi, This is Chitta Karthikeya Kahyap! 👋🏼<br/><br/>
-            I'm a results-driven Data Scientist with a strong background in Machine Learning, Data Analytics, and Predictive Modelling. I specialize in data wrangling, statistical analysis, and feature engineering, and I’m proficient in Python, SQL, and R. 
-            My experience spans from exploratory data analysis (EDA) and natural language processing (NLP) to deploying scalable, cloud-based solutions that solve real-world business problems.<br/><br/>
+            I’m a versatile Data Analyst with a passion for delivering end-to-end analytics products that solve real business problems. 
+            I specialize in transforming messy operational data into polished dashboards, predictive tools, and conversational insight assistants—leveraging Python, SQL, Tableau, Power BI, dbt, and modern cloud stacks.
+
+             My recent work with retail, marketing, and product teams has reduced decision-making time by up to 70% and improved forecast accuracy by 20%. 
+            Whether it’s surfacing insights or building data products, I focus on creating solutions that are not just accurate, but also actionable and easy to use.
+<br/><br/>
           </p>
         </div>
 
