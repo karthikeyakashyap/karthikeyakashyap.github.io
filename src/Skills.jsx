@@ -1,45 +1,56 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Skills = () => {
-  const skillsData = {
-    programming: [
-      { name: 'Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)', level: 'Experienced', icon: 'fab fa-python' },
-      { name: 'R', level: 'Intermediate', icon: 'fas fa-chart-line' },
-      { name: 'SQL', level: 'Experienced', icon: 'fas fa-database' }
-    ],
-    dataScience: [
-      { name: 'Data Cleaning & Wrangling', level: 'Experienced', icon: 'fas fa-broom' },
-      { name: 'Feature Engineering', level: 'Experienced', icon: 'fas fa-cogs' },
-      { name: 'Statistical Analysis', level: 'Experienced', icon: 'fas fa-chart-area' },
-      { name: 'Hypothesis Testing', level: 'Experienced', icon: 'fas fa-vial' },
-      { name: 'Exploratory Data Analysis (EDA)', level: 'Experienced', icon: 'fas fa-search' }
-    ],
-    machineLearning: [
-      { name: 'Supervised/Unsupervised Learning', level: 'Experienced', icon: 'fas fa-brain' },
-      { name: 'Neural Networks', level: 'Intermediate', icon: 'fas fa-project-diagram' },
-      { name: 'NLP', level: 'Intermediate', icon: 'fas fa-language' },
-      { name: 'Predictive Modelling', level: 'Experienced', icon: 'fas fa-chart-line' }
-    ],
-    tools: [
-      { name: 'Jupyter Notebooks', level: 'Experienced', icon: 'fas fa-book' },
-      { name: 'Google Colab', level: 'Experienced', icon: 'fas fa-cloud' },
-      { name: 'GitHub', level: 'Experienced', icon: 'fab fa-github' },
-      { name: 'Microsoft Excel', level: 'Experienced', icon: 'fas fa-file-excel' },
-      { name: 'IBM Watson AI/Studio', level: 'Intermediate', icon: 'fas fa-robot' },
-      { name: 'IBM Cognos Analytics', level: 'Intermediate', icon: 'fas fa-chart-pie' }
-    ],
-    cloud: [
-      { name: 'AWS', level: 'Intermediate', icon: 'fab fa-aws' },
-      { name: 'IBM Cloud', level: 'Intermediate', icon: 'fas fa-cloud' },
-      { name: 'Cloud Model Deployment', level: 'Intermediate', icon: 'fas fa-rocket' }
-    ],
-    methodologies: [
-      { name: 'CRISP-DM', level: 'Experienced', icon: 'fas fa-project-diagram' },
-      { name: 'Agile', level: 'Experienced', icon: 'fas fa-sync' },
-      { name: 'SDLC', level: 'Intermediate', icon: 'fas fa-cogs' }
-    ]
-  };
+const skillsData = {
+  programming: [
+    { name: 'SQL (ANSI, Window Functions)', level: 'Experienced', icon: 'fas fa-database' },
+    { name: 'Python (Pandas, NumPy, Matplotlib, Seaborn)', level: 'Experienced', icon: 'fab fa-python' },
+    { name: 'R', level: 'Intermediate', icon: 'fas fa-chart-line' },
+    { name: 'Advanced Excel', level: 'Experienced', icon: 'fas fa-file-excel' }
+  ],
+  biAndVisualization: [
+    { name: 'Tableau', level: 'Experienced', icon: 'fas fa-chart-bar' },
+    { name: 'Power BI', level: 'Experienced', icon: 'fas fa-chart-pie' },
+    { name: 'Looker / Looker Studio', level: 'Intermediate', icon: 'fas fa-binoculars' },
+    { name: 'D3.js', level: 'Beginner', icon: 'fas fa-project-diagram' },
+    { name: 'Data Storytelling', level: 'Experienced', icon: 'fas fa-comments' }
+  ],
+  dataWarehousing: [
+    { name: 'Snowflake', level: 'Experienced', icon: 'fas fa-snowflake' },
+    { name: 'BigQuery', level: 'Experienced', icon: 'fas fa-database' },
+    { name: 'Redshift', level: 'Intermediate', icon: 'fas fa-server' },
+    { name: 'PostgreSQL / MySQL', level: 'Experienced', icon: 'fas fa-database' },
+    { name: 'MongoDB', level: 'Intermediate', icon: 'fas fa-leaf' }
+  ],
+  analyticsEngineering: [
+    { name: 'dbt', level: 'Experienced', icon: 'fas fa-tools' },
+    { name: 'ETL/ELT (Fivetran)', level: 'Experienced', icon: 'fas fa-random' },
+    { name: 'Star/Snowflake Schema Design', level: 'Experienced', icon: 'fas fa-project-diagram' },
+    { name: 'Data Quality Testing', level: 'Experienced', icon: 'fas fa-check-circle' }
+  ],
+  statisticsAndML: [
+    { name: 'A/B Testing', level: 'Experienced', icon: 'fas fa-flask' },
+    { name: 'Hypothesis Testing', level: 'Experienced', icon: 'fas fa-vial' },
+    { name: 'Regression & Classification', level: 'Experienced', icon: 'fas fa-chart-line' },
+    { name: 'Forecasting (Prophet)', level: 'Intermediate', icon: 'fas fa-chart-area' },
+    { name: 'Anomaly Detection', level: 'Intermediate', icon: 'fas fa-exclamation-triangle' }
+  ],
+  cloudAndDevOps: [
+    { name: 'AWS (S3, EC2, ECS, RDS, Glue)', level: 'Intermediate', icon: 'fab fa-aws' },
+    { name: 'Docker', level: 'Intermediate', icon: 'fab fa-docker' },
+    { name: 'Kubernetes', level: 'Beginner', icon: 'fas fa-network-wired' },
+    { name: 'GitHub Actions', level: 'Experienced', icon: 'fab fa-github' },
+    { name: 'CI/CD', level: 'Experienced', icon: 'fas fa-sync' }
+  ],
+  frameworksAndTools: [
+    { name: 'Flask', level: 'Intermediate', icon: 'fas fa-fire' },
+    { name: 'FastAPI', level: 'Intermediate', icon: 'fas fa-bolt' },
+    { name: 'Streamlit', level: 'Intermediate', icon: 'fas fa-stream' },
+    { name: 'Jupyter', level: 'Experienced', icon: 'fas fa-book' },
+    { name: 'Google Colab', level: 'Experienced', icon: 'fas fa-cloud' },
+    { name: 'IBM Watson Studio', level: 'Intermediate', icon: 'fas fa-robot' }
+  ]
+};
 
   return (
     <main className="main-content">
