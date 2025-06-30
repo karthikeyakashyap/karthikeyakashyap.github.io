@@ -9,11 +9,12 @@ const About = () => {
         <div className="divider"></div>
         
         <div className="about-text-full">
-          <p className="about-description">
-            Hi, This is Chitta Karthikeya Kahyap! 👋🏼<br/><br/>
-            I'm a results-driven Data Scientist with a strong background in Machine Learning, Data Analytics, and Predictive Modelling. I specialize in data wrangling, statistical analysis, and feature engineering, and I’m proficient in Python, SQL, and R. 
-            My experience spans from exploratory data analysis (EDA) and natural language processing (NLP) to deploying scalable, cloud-based solutions that solve real-world business problems.<br/><br/>
-          </p>
+         <p className="about-description">
+  Hi, this is Chitta Karthikeya Kashyap! 👋🏼<br/><br/>
+  I'm a versatile Data Analyst with a passion for building end-to-end analytics products that solve real business problems. From turning raw, messy data into polished dashboards to deploying predictive models and conversational insight tools, I thrive at the intersection of data engineering, analysis, and storytelling.<br/><br/>
+  I'm skilled in Python, SQL, dbt, and cloud-native stacks, with hands-on experience in forecasting, anomaly detection, and NLP. My recent work has helped retail, marketing, and product teams cut decision time by up to 70% and improve forecast accuracy by 20%.<br/><br/>
+</p>
+
         </div>
 
         {/* Navigation Link to Skills Page */}

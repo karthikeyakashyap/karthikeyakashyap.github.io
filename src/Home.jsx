@@ -11,10 +11,11 @@ const Home = () => {
             CHITTA KARTHIKEYA KASHYAP
           </h1>
           <p className="description">
-          Results-driven Data Scientist with expertise in Machine Learning, Data Analytics, and Predictive Modelling. 
-          Skilled in data wrangling, statistical analysis, and deploying cloud-based models. 
-          Proficient in Python, SQL, and R.
-          </p>
+  Versatile Data Analyst passionate about delivering end-to-end analytics solutions that drive business impact. 
+  Experienced in transforming messy operational data into interactive dashboards, predictive tools, and AI-powered insight assistants. 
+  Proficient in Python, SQL, Tableau/Power BI, dbt, and cloud-native stacks; known for delivering data-driven solutions that accelerate decision-making and improve forecasting outcomes through real-world projects.
+</p>
+
           
           <Link to="/about" className="about-me-link">
             About Me <i className="fas fa-arrow-right"></i>
@@ -32,8 +33,8 @@ const Home = () => {
           <h2 className="job-title">Data Scientist </h2>
           <a 
             className="resume-button"
-            href="/Resume DSL.pdf" 
-            download="Resume DSL.pdf"
+            href="/DA Resume.pdf" 
+            download="DA Resume.pdf"
           >
             DOWNLOAD RESUME
           </a>

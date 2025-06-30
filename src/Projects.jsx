@@ -4,28 +4,24 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
   const projects = [
     {
-      title: 'Melanoma Detection Using SVM and CNN',
+      title: 'Collaborative Retail Inventory Forecasting Platform',
       description:
-        'Developed an image analysis tool for early melanoma detection. Applied grayscale conversion, noise removal, and GLCM feature extraction. Trained SVM and CNN models with hyperparameter tuning for optimized classification performance.',
-      github: '#', // Replace with actual repo if available
-      icon: 'fas fa-notes-medical'
+        'Built a real-time web platform with React, Flask, and WebSockets enabling store managers to collaboratively forecast inventory. Integrated dbt-triggered Prophet models and Power BI Embedded for dashboards, improving forecast MAPE by 20% and cutting stockouts by 15%.',
+      icon: 'fas fa-store'
     },
     {
-      title: 'Online Medical Consultation Application',
+      title: 'AI-Powered Customer Sentiment & Decision Assistant',
       description:
-        'Built a telemedicine app integrating Python, SQL, and Agora for real-time consultations. Included vital sign monitoring, cloud-based patient data storage, and visualizations using Matplotlib and Seaborn.',
-      github: '#', // Replace with actual repo if available
-      icon: 'fas fa-stethoscope'
+        'Developed a React-FastAPI dashboard that uses transformer models (Hugging Face, spaCy, OpenAI API) to analyze product feedback in natural language. Delivered topic modeling, quantified sentiment, and D3.js visualizations, reducing churn analysis time by 60%.',
+      icon: 'fas fa-comments'
     },
     {
-      title: 'Predicting SpaceX Falcon 9 Rocket Landing Success',
+      title: 'Live Marketing Campaign Performance Dashboard & Alerts',
       description:
-        'Created a predictive model using Python, Pandas, and Scikit-learn to forecast Falcon 9 landing success. Conducted EDA and built logistic regression models evaluated with ROC-AUC and accuracy metrics.',
-      github: '#', // Replace with actual repo if available
-      icon: 'fas fa-rocket'
+        'Engineered a live pipeline with Python, dbt, and Docker that streams marketing metrics and detects anomalies using z-scores. Looker dashboards issue real-time alerts, cutting reaction time from 24h to <1h and saving thousands quarterly.',
+      icon: 'fas fa-bullhorn'
     }
   ];
-
   const certificates = [
     {
       title: 'IBM Data Science Professional Certificate',
@@ -47,23 +43,19 @@ const Projects = () => {
         <h1 className="section-title">Projects</h1>
         <div className="divider"></div>
 
-        {/* Projects Grid */}
-        <div className="grid-container">
-          {projects.map((project, index) => (
-            <div key={index} className="project-card">
-              <i className={`${project.icon} project-bg-icon`}></i>
-              <div className="project-content">
-                <h2>{project.title}</h2>
-                <p>{project.description}</p>
-                {project.github !== '#' && (
-                  <a href={project.github} className="github-button" target="_blank" rel="noopener noreferrer">
-                    GitHub
-                  </a>
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
+       {/* Projects Grid */}
+<div className="grid-container">
+  {projects.map((project, index) => (
+    <div key={index} className="project-card">
+      <i className={`${project.icon} project-bg-icon`}></i>
+      <div className="project-content">
+        <h2>{project.title}</h2>
+        <p>{project.description}</p>
+      </div>
+    </div>
+  ))}
+</div>
+
 
         {/* Certifications Section */}
         <h2 className="section-title" style={{ marginTop: '3rem' }}>Certifications</h2>
